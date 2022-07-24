@@ -16,8 +16,3 @@ game:GetService("RunService").RenderStepped:Connect(function()
                     if v:IsA("BasePart") then
                         firetouchinterest(tool.Handle,v,0)
                         firetouchinterest(tool.Handle,v,1)
-                    end
-                end
-            end
-        end
-    end
